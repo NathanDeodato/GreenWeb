@@ -3,13 +3,14 @@
     " alt="" style="width: 40vw;">
 </section>
 
-<h1 style="text-align:center;">GreenWeb</h1>
+# GreenWeb
 
 <p>GreenWeb is a web application developed using HTML and CSS. The application is intended to be a login page and create an account to access the platform.</p>
 
 ---
 
-<h2 style="text-align:center;">Project</h2>
+## Project
+
 <section style="width: 80vw; display: flex; flex-direction: column; justify-content: center;">
     <img src="/Docs/IMG/GreenWeb - Login.png"alt="PageWeb-01" style="padding: 01vh;">
     <img src="/Docs/IMG/GreenWeb - Creat.png" alt="PageWeb-02" style="padding: 01vh;">
@@ -20,7 +21,8 @@
 
 ---
 
-<h2 style="text-align:center;">Technologies</h2>
+## Technologies
+
 <section style="display: flex; justify-content: center">
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
@@ -29,7 +31,9 @@
 
 ---
 
-<h3>Funcionalidades</h3>
+### Funcionalidades
+
+- [] Hover
 - [] Pop-Up "Esqueci senha"
 - [] Pop-Up "Termos e condições"
 
