@@ -8,13 +8,14 @@
 
 ## Project
 
-<img src="/Docs/IMG/GreenWeb - Login.png"alt="PageWeb-01" style="padding: 01vh;">
-<img src="/Docs/IMG/GreenWeb - Creat.png" alt="PageWeb-02" style="padding: 01vh;">
+<img src="/Docs/IMG/GreenWeb - Login.png" alt="PageWeb-01">
+<img src="/Docs/IMG/GreenWeb - Creat.png" alt="PageWeb-02">
 
 ---
 
 ## Application demo
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b334ccb1-0174-4652-92bc-4f3fbbc23bdb/deploy-status)](https://app.netlify.com/sites/greenweb-vblackcd/deploys)
 
 ---
 
