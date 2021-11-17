@@ -10,6 +10,11 @@
 
 ---
 
+<h2 align="center">Design</h2>
+<a href="https://www.figma.com/file/CcHmGjy1G54liNWbIuyVse/GreenWeb?node-id=1%3A2"><img src="https://img.shields.io/static/v1?label=Design&message=Figma&color=00FA9A&style=for-the-badge&logo=GHOST" alt="ntShield"></a>
+
+---
+
 <h2  align="center">Application demo</h2>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/052b4e3e-8369-4913-bfcb-1c7179003b7d/deploy-status)](https://app.netlify.com/sites/greenweb-page/deploys)
