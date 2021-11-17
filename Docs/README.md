@@ -30,8 +30,8 @@
 ---
 
 <h3>Funcionalidades</h3>
-[] Pop-Up "Esqueci senha"
-[] Pop-Up "Termos e condições"
+- [] Pop-Up "Esqueci senha"
+- [] Pop-Up "Termos e condições"
 
 
 
