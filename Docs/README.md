@@ -11,8 +11,8 @@
 
 <h2 style="text-align:center;">Project</h2>
 <section style="width: 80vw; display: flex; flex-direction: column; justify-content: center;">
-    <img src="/home/deodato_nt/Documentos/Developer/Developer/Projects/Web/GreenWeb/Docs/IMG/GreenWeb - Login.png"alt="PageWeb-01" style="padding: 01vh;">
-    <img src="/home/deodato_nt/Documentos/Developer/Developer/Projects/Web/GreenWeb/Docs/IMG/GreenWeb - Creat.png" alt="PageWeb-02" style="padding: 01vh;">
+    <img src="/Docs/IMG/GreenWeb - Login.png"alt="PageWeb-01" style="padding: 01vh;">
+    <img src="/Docs/IMG/GreenWeb - Creat.png" alt="PageWeb-02" style="padding: 01vh;">
 </section>
 
 <!--<img src="" alt="PageWeb-03">
