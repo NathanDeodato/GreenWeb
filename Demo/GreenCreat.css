@@ -1,0 +1,173 @@
+/* config-font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* config-reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* config-body */
+body {
+    background-color: #1C1C1C;
+    color: white;
+}
+header {
+    width: 100vw;
+    height: 15vh;
+}
+main {
+    width: 100vw;
+    height: 65vh;
+    
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    width: 100vw;
+    height: 20vh;
+}
+
+/* config-header */
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5vh;
+}
+.title-green {
+    font-size: 3rem;
+}
+
+/* config-main */
+.container-login {
+    width: 90vw;
+    height: 60vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box-login {
+    width: 40vw;
+    height: 55vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    color: black;
+    background-color: #00FA9A;
+    border-radius: 10px;
+}
+.box-text {
+    width: 20vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subbutton {
+    width: 45vw;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.creat-input {
+    width: 18vw;
+    height: 6vh;
+    
+    font-size: 0.8rem;
+    text-align: center;
+
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.creat-check {
+    background-color: #FFFFFF;
+    font-size: 0.5rem;
+}
+
+.button-login {
+    width: 10vw;
+    height: 6vh;
+    font-size: 1rem;
+
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.box-title {
+    font-size: 1.7rem;
+}
+.button-a {
+    width: 10vw;
+    height: 6vh;
+    font-size: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    color: black;
+}
+.sublink-a {
+    text-decoration: underline;
+    color: black;
+}
+.text-check{    
+    display: inline;
+
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+.style-textcheck {
+    color: black;
+}
+.text-main {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* config-footer */
+.container-footer {
+    display: flex;
+
+    background-color: #00FA9A;
+}
+.box-redesocial {
+    width: 50vw;
+    height: 20vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-nt {
+    width: 50vw;
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 2.5vw;
+}
+.title-footer {
+    font-size: 1.5rem;
+}
