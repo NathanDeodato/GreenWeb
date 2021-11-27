@@ -17,7 +17,7 @@
 
 <h2  align="center">Application demo</h2>
 
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9de1d685-fcf4-441f-9459-681b36612a2a/deploy-status)](https://app.netlify.com/sites/greenweb-demo/deploys)
 
 ---
 
