@@ -1,0 +1,379 @@
+/* config-font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* config-reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* config-body */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    background-color: #1C1C1C;
+    color: white;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+}
+
+main {
+    width: 100vw;
+    height: 65vh;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    width: 100vw;
+    height: 15vh;
+}
+
+/* config-header */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 3.5vh;
+}
+
+.header-titlegreen {
+    font-size: 2.8em;
+}
+
+/* config-main */
+
+.main-containerlogin {
+    width: 90vw;
+    height: 60vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-boxlogin {
+    width: 40vw;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    color: black;
+    background-color: #00FA9A;
+    border-radius: 10px;
+}
+
+.main-boxtext {
+    width: 20vw;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-subbutton {
+    width: 45vw;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-logininput {
+    width: 25vw;
+    height: 7vh;
+    
+    font-size: 0.8rem;
+    text-align: center;
+
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.main-buttonlogin {
+    width: 10vw;
+    height: 6vh;
+    font-size: 1rem;
+
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+}
+
+.main-boxtitle {
+    font-size: 1.7rem;
+}
+
+.main-buttona {
+    width: 10vw;
+    height: 6vh;
+    font-size: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    color: black;
+}
+
+.main-sublinka {
+    text-decoration: underline;
+    color: black;
+}
+
+.main-text {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/* config-footer */
+
+.footer-container {
+    /* margin-top: 3vh; */
+    
+    display: flex;
+
+    background-color: #00FA9A;
+}
+
+.footer-boxredesocial {
+    width: 50vw;
+    height: 20vh;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-nt {
+    width: 50vw;
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 2.5vw;
+}
+
+.footer-title {
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* config-responsive */
+
+/* responsive-laptop */
+
+@media (max-width: 1024px) {
+
+    /* config-header */
+    
+    .header-titlegreen {
+        font-size: 2.5em;
+    }
+
+    /* config-main */
+
+    .main-containerlogin {
+        height: 60vh;
+    }
+
+    .main-boxlogin {
+        width: 40vw;
+        height: 100vh;
+    }
+
+    .main-text {
+        font-size: 1.2em;
+    }
+
+    .main-boxtitle {
+        font-size: 1.3em;
+    }
+
+    .main-boxlogin {
+        width: 60%;
+        height: 60%;
+    }
+
+    .main-logininput {
+        font-size: 0.8em;
+    }
+
+    .main-buttona {
+        font-size: 0.8em;
+    }
+
+    .main-sublinka {
+        font-size: 0.9em;
+    }
+
+}
+
+
+/* responsive-tablet */
+
+@media (max-width: 768px) {
+    
+    /* config-main */
+
+    .main-containerlogin {
+        height: 65vh;
+        
+        flex-direction: column-reverse;
+    }
+
+    .main-boxtext {
+        width: 75%;
+    }
+
+    .main-text {
+        width: 80%;
+        
+        font-size: 1.2em;
+    }
+
+    .main-boxlogin {
+        width: 60%;
+        height: 60%;
+    }
+
+    .main-logininput {
+        width: 70%;
+    }
+
+    .main-buttona {
+        width: 30%;
+    }
+
+    .main-sublinka {
+        font-size: 0.8em;
+    }
+
+    /* config-footer */
+
+    .footer-icon {
+        width: 3vw;
+    }
+
+}
+
+/* responsive-adpted */
+
+@media (max-width: 530px) {
+
+    /* config-header */
+
+    .header-titlegreen {
+        font-size: 1.8em;
+    }
+
+    /* config-main */
+
+    .main-boxtext {
+        width: 100%;
+    }
+
+    .main-boxlogin {
+        width: 80%;
+    }
+
+    .main-text {
+        font-size: 1em;
+    }
+
+    .main-boxtitle {
+        font-size: 1em;
+    }
+
+    .main-logininput {
+        width: 70%;
+        height: 15%;
+    }
+
+    .main-sublinka {
+        font-size: 0.6em;
+    }
+
+    /* config-footer */
+
+    .footer-container {
+        height: 15vh;
+    }
+
+    .footer-boxredesocial {
+        height: 15vh;
+    }
+
+    .container-nt {
+        height: 15vh;
+    }
+
+}
+
+/* responsive-mobile L */
+
+@media (max-width: 425px) {
+
+    /* config-main */
+
+    .main-boxtext {
+        width: 100%;
+    }
+
+    .main-text  {
+        width: 100%;
+    }
+
+    .main-boxlogin {
+        width: 100%;
+    }
+
+    .main-logininput {
+        font-size: 0.7em;
+    }
+
+    .main-buttona {
+        font-size: 0.7em;
+    }
+
+    .main-sublinka {
+        font-size: 0.55em;
+    }
+
+    /* config-footer */
+
+    .footer-icon {
+        width: 4vw;
+    }
+
+    .footer-title {
+        font-size: 1.1em;
+    }
+}
