@@ -1,7 +1,9 @@
 /* config-font */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 /* config-reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -10,14 +12,17 @@
 }
 
 /* config-body */
+
 body {
     background-color: #1C1C1C;
     color: white;
 }
+
 header {
     width: 100vw;
     height: 15vh;
 }
+
 main {
     width: 100vw;
     height: 65vh;
@@ -25,24 +30,32 @@ main {
     display: flex;
     justify-content: space-around;
 }
+
 footer {
     width: 100vw;
-    height: 20vh;
+    height: 15vh;
 }
 
 /* config-header */
-.container-header {
+
+.header-container {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 3.5vh;
 }
-.title-green {
-    font-size: 3rem;
+
+.header-titlegreen {
+    font-size: 3em;
+}
+
+.header-titlegreen:hover {
+    cursor: pointer;
 }
 
 /* config-main */
-.container-login {
+
+.main-containercreat {
     width: 90vw;
     height: 60vh;
 
@@ -50,8 +63,9 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-.box-login {
-    width: 40vw;
+
+.main-boxcreat {
+    width: 50%;
     height: 55vh;
 
     display: flex;
@@ -63,7 +77,8 @@ footer {
     background-color: #00FA9A;
     border-radius: 10px;
 }
-.box-text {
+
+.main-boxtext {
     width: 20vw;
     height: 10vh;
 
@@ -71,43 +86,68 @@ footer {
     justify-content: center;
     align-items: center;
 }
-.subbutton {
+
+.main-subbutton {
     width: 45vw;
     
     display: flex;
     justify-content: space-around;
 }
 
-.creat-input {
+.main-creatinput {
     width: 18vw;
     height: 6vh;
     
     font-size: 0.8rem;
     text-align: center;
 
+    outline: none;
     border: none;
     background-color: #FFFFFF;
     border-radius: 5px;
 }
-.creat-check {
-    background-color: #FFFFFF;
-    font-size: 0.5rem;
+
+.main-creatinput:hover {
+    cursor: pointer;
+
+    background-color: rgb(219, 219, 219);
 }
 
-.button-login {
-    width: 10vw;
-    height: 6vh;
-    font-size: 1rem;
+.main-check {
+    background-color: #FFFFFF;
+    font-size: 0.5em;
+
+    outline: none;
+    border: none;
+}
+
+.main-check {
+    cursor: pointer;
+
+    background-color: rgb(219, 219, 219);
+}
+
+.main-button {
+    width: 25%;
+    height: 12%;
+    font-size: 1em;
 
     background-color: #FFFFFF;
     border: none;
     border-radius: 5px;
 }
 
-.box-title {
+.main-button:hover {
+    cursor: pointer;
+
+    background-color: rgb(219, 219, 219);
+}
+
+.main-boxtitle {
     font-size: 1.7rem;
 }
-.button-a {
+
+.main-buttona {
     width: 10vw;
     height: 6vh;
     font-size: 1rem;
@@ -123,39 +163,54 @@ footer {
     text-decoration: none;
     color: black;
 }
-.sublink-a {
-    text-decoration: underline;
-    color: black;
-}
-.text-check{    
+
+.main-textcheck{    
     display: inline;
 
     text-decoration: underline;
     font-size: 0.8rem;
 }
-.style-textcheck {
+
+.main-textcheck:hover {
+    cursor: pointer;
+}
+
+.main-styletextcheck {
     color: black;
 }
-.text-main {
+
+.main-sublinka {
+    color: black;
+    text-decoration: underline;
+}
+
+.main-sublinka:hover {
+    cursor: pointer;
+}
+
+.main-text {
     font-size: 2rem;
     font-weight: bold;
 }
 
 /* config-footer */
-.container-footer {
+
+.footer-container {
     display: flex;
 
     background-color: #00FA9A;
 }
-.box-redesocial {
+
+.footer-boxredesocial {
     width: 50vw;
     height: 20vh;
-    
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
 }
+
 .container-nt {
     width: 50vw;
     height: 20vh;
@@ -168,6 +223,252 @@ footer {
 .footer-icon {
     width: 2.5vw;
 }
-.title-footer {
+
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+.footer-title {
+    color: black;
     font-size: 1.5rem;
 }
+
+/* config-responsive */
+
+/* responsive-laptop */
+
+@media (max-width: 1024px) {
+
+    /* config-header */
+    
+    .header-titlegreen {
+        font-size: 2.5em;
+    }
+
+    /* config-main */
+
+    .main-boxcreat {
+        width: 55%;
+        height: 90%;
+    }
+
+    .main-creatboxone {
+        width: 90%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-creatboxtwo {
+        width: 90%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-creatboxthree {
+        width: 90%;
+
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .main-creatinput {
+        width: 45%;
+    }
+
+    .main-text {
+        font-size: 1.2em;
+    }
+
+    .main-boxtitle {
+        font-size: 1.3em;
+    }
+
+    .main-boxlogin {
+        width: 60%;
+        height: 90%;
+    }
+
+    .main-creatinput {
+        font-size: 0.8em;
+    }
+
+    .main-buttona {
+        font-size: 0.8em;
+    }
+
+    .main-sublinka {
+        font-size: 0.9em;
+    }
+
+}
+
+
+/* responsive-tablet */
+
+@media (max-width: 768px) {
+    
+    /* config-main */
+
+    .main-containercreat {
+        height: 65vh;
+        
+        flex-direction: column-reverse;
+    }
+
+    .main-boxtext {
+        width: 75%;
+    }
+
+    .main-text {
+        width: 90%;
+        
+        font-size: 1.2em;
+    }
+
+    .main-boxcreat {
+        width: 70%;
+        height: 70%;
+    }
+
+    .main-creatinput {
+        width: 45%;
+    }
+
+    .main-buttona {
+        width: 30%;
+    }
+
+    .main-sublinka {
+        font-size: 0.8em;
+    }
+
+    /* config-footer */
+
+    .footer-icon {
+        width: 3vw;
+    }
+
+}
+
+/* responsive-adpted */
+
+@media (max-width: 530px) {
+
+    /* config-header */
+
+    .header-titlegreen {
+        font-size: 1.8em;
+    }
+
+    /* config-main */
+
+    .main-boxtext {
+        width: 100%;
+    }
+
+    .main-text {
+        width: 100%;
+    }
+
+    .main-boxcreat {
+        width: 100%;
+    }
+
+    .main-text {
+        font-size: 1em;
+    }
+
+    .main-boxtitle {
+        font-size: 1em;
+    }
+
+    .main-creatinput {
+        width: 38vw;
+        height: 6vh;
+
+        font-size: 0.6em;
+    }
+
+    .main-button {
+        width: 20vw;
+
+        font-size: 0.6em;
+    }
+
+    /* config-footer */
+
+    .footer-container {
+        height: 15vh;
+    }
+
+    .footer-boxredesocial {
+        height: 15vh;
+    }
+
+    .footer-icon {
+        width: 4vw;
+    }
+
+    .container-nt {
+        height: 15vh;
+    }
+
+}
+
+/* responsive-mobile L */
+
+@media (max-width: 425px) {
+
+    /* config-main */
+
+    .main-boxtext {
+        width: 100%;
+    }
+
+    .main-text  {
+        width: 100%;
+    }
+
+    .main-boxlogin {
+        width: 100%;
+    }
+
+    .main-logininput {
+        font-size: 0.7em;
+    }
+
+    .main-buttona {
+        font-size: 0.7em;
+    }
+
+    .main-sublinka {
+        font-size: 0.55em;
+    }
+
+    /* config-footer */
+
+    .footer-icon {
+        width: 4vw;
+    }
+
+    .footer-title {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* config-main */
+
+    .main-styletextcheck {
+        font-size: 0.5em;
+    }
+
+    .main-sublinka {
+        font-size: 0.5em;
+    }
+
+}
+
