@@ -54,6 +54,10 @@ footer {
     font-size: 2.8em;
 }
 
+.header-titlegreen:hover {
+    cursor: pointer;
+}
+
 /* config-main */
 
 .main-containerlogin {
@@ -99,22 +103,36 @@ footer {
     width: 25vw;
     height: 7vh;
     
+    color: black;
     font-size: 0.8rem;
     text-align: center;
 
     border: none;
+    outline: none;
     background-color: #FFFFFF;
     border-radius: 5px;
 }
 
-.main-buttonlogin {
+.main-logininput:hover {
+    cursor: pointer;
+
+    background-color: rgb(219, 219, 219);
+}
+
+.main-buttona {
     width: 10vw;
     height: 6vh;
-    font-size: 1rem;
+    font-size: 0.9em;
 
     background-color: #FFFFFF;
     border: none;
     border-radius: 5px;
+}
+
+.main-buttona:hover {
+    cursor: pointer;
+    
+    background-color: rgb(219, 219, 219);
 }
 
 .main-boxtitle {
@@ -151,8 +169,6 @@ footer {
 /* config-footer */
 
 .footer-container {
-    /* margin-top: 3vh; */
-    
     display: flex;
 
     background-color: #00FA9A;
