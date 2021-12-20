@@ -17,7 +17,7 @@
 
 <h2  align="center">Application demo</h2>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9de1d685-fcf4-441f-9459-681b36612a2a/deploy-status)](https://app.netlify.com/sites/greenweb-demo/deploys)
+<a href="https://greenweb-demo.netlify.app/"><img src="https://img.shields.io/static/v1?label=Netlify&message=Demo&color=00FA9A&style=for-the-badge&logo=NETLIFY" alt="ntShield"></a>
 
 ---
 
@@ -34,15 +34,6 @@
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-
----
-
-<h3 align="center">Funcionalidades</h3>
-
-- [] Hover
-- [] Pop-Up "Esqueci senha"
-- [] Pop-Up "Termos e condições"
-- [] Demo
 
 ---
 
