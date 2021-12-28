@@ -17,7 +17,7 @@
 
 <h2  align="center">Application demo</h2>
 
-<a href="https://greenweb-demo.netlify.app/"><img src="https://img.shields.io/static/v1?label=Netlify&message=Demo&color=00FA9A&style=for-the-badge&logo=NETLIFY" alt="ntShield"></a>
+<a href="https://greenweb-demo.netlify.app/"><img src="https://img.shields.io/static/v1?label=Netlify&message=Demo&color=0e1e25&style=for-the-badge&logo=NETLIFY" alt="ntShield"></a>
 
 ---
 
