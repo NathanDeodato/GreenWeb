@@ -1,0 +1,318 @@
+/* config-footer */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* config-reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* config-body */
+body {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+header {
+    width: 100%;
+    height: 15vh;
+}
+
+main {
+    width: 100%;
+    height: 65vh;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    width: 100%;
+    height: 15vh;
+}
+
+
+/* config-header */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3.5vh;
+}
+
+.header-title {
+    font-size: 3em;
+}
+
+.header-titlegreen:hover {
+    cursor: pointer;
+}
+
+/* config-main */
+
+.main-container {
+    width: 60%;
+    height: 80%;
+
+    margin-top: 2%;
+
+    color: black;
+    background-color: #00FA9A;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main-boxlogin {
+    width: 50%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-boxcreat {
+    width: 50%;
+    height: 100%;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-hr {
+    width: 0.2%;
+    height: 80%;
+
+    border: none;
+    background: #1c1c1c;
+}
+
+.main-title {
+    width: 80%;
+    height: 35%;
+    
+    font-size: 1.4em;
+}
+
+.main-button {
+    width: 60%;
+    height: 18%;
+
+    font-size: 1.1em;
+
+    border: none;
+    border-radius: 5px;
+}
+
+.main-button:hover {
+    cursor: pointer;
+
+    background-color: rgb(219, 219, 219);
+}
+
+.main-linkbutton {
+    color:black;
+
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* config-footer */
+
+.footer-container {
+    display: flex;
+
+    background-color: #00FA9A;
+}
+
+.footer-boxredesocial {
+    width: 50vw;
+    height: 20vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-nt {
+    width: 50vw;
+    height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon {
+    width: 2.5vw;
+}
+
+.footer-icon:hover {
+    cursor: pointer;
+}
+
+.footer-title {
+    color: black;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+
+    /* config-header */
+    
+    .header-titlegreen {
+        font-size: 2.5em;
+    }
+
+    /* config-main */
+
+
+
+}
+
+
+/* responsive-tablet */
+
+@media (max-width: 768px) {
+    
+    /* config-main */
+    .main-container {
+        width: 80%;
+        height: 70%;
+
+        margin-top: 6%;
+    }
+
+    .main-title {
+        font-size: 1.2em;
+    }
+
+    .main-button {
+        font-size: 0.9em;
+    }
+    
+
+    /* config-footer */
+
+    .footer-icon {
+        width: 3vw;
+    }
+
+}
+
+/* responsive-adpted */
+
+@media (max-width: 530px) {
+
+    /* config-header */
+
+    .header-titlegreen {
+        font-size: 1.5em;
+    }
+
+    /* config-main */
+    .main-container {
+        width: 90%;
+        height: 70%;
+
+        margin-top: 10%;
+    }
+
+    .main-title {
+        font-size: 1em;
+    }
+
+    .main-button {
+        font-size: 0.8em;
+    }
+    
+
+    /* config-footer */
+
+    .footer-container {
+        height: 15vh;
+    }
+
+    .footer-boxredesocial {
+        height: 15vh;
+    }
+
+    .footer-icon {
+        width: 4vw;
+    }
+
+    .container-nt {
+        height: 15vh;
+    }
+
+}
+
+/* responsive-mobile L */
+
+@media (max-width: 425px) {
+
+    /* config-main */
+    .main-container {
+        width: 90%;
+        height: 60%;
+
+        margin-top: 15%;
+    }
+
+    .main-title {
+        font-size: 0.8em;
+    }
+
+    .main-button {
+        font-size: 0.6em;
+    }
+    
+
+    /* config-footer */
+
+    .footer-icon {
+        width: 4vw;
+    }
+
+    .footer-title {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 320px) {
+
+    /* config-main */
+    
+    .main-container {
+        width: 90%;
+        height: 50%;
+
+        margin-top: 25%;
+    }
+
+    .main-title {
+        font-size: 0.7em;
+    }
+
+    .main-button {
+        font-size: 0.55em;
+    }
+    
+
+}

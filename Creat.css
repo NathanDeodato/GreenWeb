@@ -13,18 +13,19 @@
 
 /* config-body */
 
+/* config-body */
 body {
     background-color: #1C1C1C;
     color: white;
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 15vh;
 }
 
 main {
-    width: 100vw;
+    width: 100%;
     height: 65vh;
     
     display: flex;
@@ -32,7 +33,7 @@ main {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 15vh;
 }
 
@@ -43,6 +44,22 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 3.5vh;
+}
+
+.header-home {
+    width: 3%;
+
+    position: absolute;
+    top: 5.5%;
+    left: 3%;
+}
+
+.header-home:hover {
+    width: 3.5%;
+
+    top: 4.5%;
+    
+    cursor: pointer;
 }
 
 .header-titlegreen {
@@ -130,7 +147,9 @@ footer {
 .main-buttoncreat {
     width: 25%;
     height: 12%;
+    
     font-size: 1em;
+    font-weight: bold;
 
     background-color: #FFFFFF;
     border: none;

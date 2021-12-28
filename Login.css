@@ -13,22 +13,19 @@
 
 /* config-body */
 
+/* config-body */
 body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
     background-color: #1C1C1C;
     color: white;
 }
 
 header {
-    width: 100vw;
+    width: 100%;
     height: 15vh;
 }
 
 main {
-    width: 100vw;
+    width: 100%;
     height: 65vh;
     
     display: flex;
@@ -36,7 +33,7 @@ main {
 }
 
 footer {
-    width: 100vw;
+    width: 100%;
     height: 15vh;
 }
 
@@ -50,9 +47,27 @@ footer {
     padding-top: 3.5vh;
 }
 
+.header-home {
+    width: 3%;
+
+    position: absolute;
+    top: 5.5%;
+    left: 3%;
+}
+
+.header-home:hover {
+    width: 3.5%;
+    
+    top: 4.5%;
+    
+    cursor: pointer;
+}
+
 .header-titlegreen {
     font-size: 2.8em;
 }
+
+
 
 .header-titlegreen:hover {
     cursor: pointer;
@@ -122,7 +137,9 @@ footer {
 .main-buttonlogin {
     width: 10vw;
     height: 6vh;
+    
     font-size: 0.9em;
+    font-weight: bold;
 
     background-color: #FFFFFF;
     border: none;
