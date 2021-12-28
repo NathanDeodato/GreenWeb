@@ -127,7 +127,7 @@ footer {
     background-color: rgb(219, 219, 219);
 }
 
-.main-button {
+.main-buttoncreat {
     width: 25%;
     height: 12%;
     font-size: 1em;
@@ -137,7 +137,7 @@ footer {
     border-radius: 5px;
 }
 
-.main-button:hover {
+.main-buttoncreat:hover {
     cursor: pointer;
 
     background-color: rgb(219, 219, 219);
@@ -391,7 +391,7 @@ footer {
         font-size: 0.6em;
     }
 
-    .main-button {
+    .main-buttoncreat {
         width: 20vw;
 
         font-size: 0.6em;
