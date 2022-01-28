@@ -179,11 +179,6 @@ footer {
     .header-titlegreen {
         font-size: 2.5em;
     }
-
-    /* config-main */
-
-
-
 }
 
 
@@ -194,9 +189,11 @@ footer {
     /* config-main */
     .main-container {
         width: 80%;
-        height: 70%;
+        height: 75%;
 
-        margin-top: 6%;
+        margin-top: 3%;
+
+        border-radius: 8px;
     }
 
     .main-title {
@@ -216,32 +213,29 @@ footer {
 
 }
 
-/* responsive-adpted */
+/* responsive-mobile L */
 
-@media (max-width: 530px) {
-
-    /* config-header */
-
-    .header-titlegreen {
-        font-size: 1.5em;
-    }
+@media (max-width: 425px) {
 
     /* config-main */
     .main-container {
         width: 90%;
-        height: 70%;
+        height: 50%;
 
-        margin-top: 10%;
+        margin-top: 15%;
     }
 
     .main-title {
-        font-size: 1em;
+        font-size: 0.7em;
     }
 
     .main-button {
-        font-size: 0.8em;
+        height: 14%;
+        
+        font-size: 0.55em;
+
+        border-radius: 3px;
     }
-    
 
     /* config-footer */
 
@@ -259,35 +253,6 @@ footer {
 
     .container-nt {
         height: 15vh;
-    }
-
-}
-
-/* responsive-mobile L */
-
-@media (max-width: 425px) {
-
-    /* config-main */
-    .main-container {
-        width: 90%;
-        height: 60%;
-
-        margin-top: 15%;
-    }
-
-    .main-title {
-        font-size: 0.8em;
-    }
-
-    .main-button {
-        font-size: 0.6em;
-    }
-    
-
-    /* config-footer */
-
-    .footer-icon {
-        width: 4vw;
     }
 
     .footer-title {
@@ -309,10 +274,4 @@ footer {
     .main-title {
         font-size: 0.7em;
     }
-
-    .main-button {
-        font-size: 0.55em;
-    }
-    
-
 }
